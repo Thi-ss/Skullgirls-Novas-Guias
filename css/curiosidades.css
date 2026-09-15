@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #140f1d;
+}
+
+header {
+    background-color: #240834;
+    color: aliceblue;
+    padding: 20px;
+}
+
+#header-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+header p {
+    color: #238881;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #023028;
+    font-weight: 540;
+}
+
+.paragrafo-vermelho {
+    color: #009584;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#intro {
+    margin-top: 20px;
+    font-size: large;
+}
+
+#intro-section {
+    background-color: rgb(154, 240, 255);
+    padding: 70px 30px;
+    display: flex;
+    gap: 200px;
+    margin: 50px 30px;
+}
+
+#capa-jogo {
+    width: 60%;
+    height: auto;
+}
+
+h2 {
+    font-size: 80px;
+    color: #23514f;
+}
+
+footer {
+    padding: 20px;
+    text-align: start;
+}
+
+footer p {
+    color: #f5f5f5;
+}
