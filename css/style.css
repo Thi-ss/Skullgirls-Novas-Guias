@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #140F1D;
+    background-color: #140f1d;
 }
 
 header {
@@ -19,12 +19,18 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    align-items: center;
 }
 
 header p {
     color: #238881;
 }
 
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #023028;
+    font-weight: 540;
+}
 
 .paragrafo-vermelho {
     color: #009584;
@@ -39,12 +45,7 @@ nav {
 
 #intro {
     margin-top: 20px;
-    font-size:large;
-}
-
-h2 {
-    font-size: 80px;
-    color: #23514f;
+    font-size: large;
 }
 
 #intro-section {
@@ -55,58 +56,14 @@ h2 {
     margin: 50px 30px;
 }
 
-
 #capa-jogo {
     width: 60%;
     height: auto;
 }
 
-#section-lutadores {
-    margin: 0px 50px;
-}
-
-#lutadores-em-destaque {
-    color: aliceblue;
-}
-
-#galeria {
-    margin: 50px;
-    display: flex;
-    gap: 66px;
-    flex-wrap: wrap;
-    background-color: #2A1B35;
-}
-
-.card-imagens {
-    width: 29.5%;
-    background-color: #c6fdff;
-    overflow: hidden;
-
-}
-
-.card-imagens h3 {
-    padding: 20px 20px 0px 20px;
-}
-
-.card-imagens p {
-    padding: 10px 20px 20px 20px;
-}
-
-
-.imagens {
-    width: 380px;
-    height: 380px;
-    object-fit:cover;
-}
-
-p {
-    font-family: 'Times New Roman', Times, serif;
-    color: #023028;
-    font-weight: 540;
-}
-
-h3 {
-    color: #132727;
+h2 {
+    font-size: 80px;
+    color: #23514f;
 }
 
 footer {
@@ -115,6 +72,5 @@ footer {
 }
 
 footer p {
-    color: #F5F5F5;
-
+    color: #f5f5f5;
 }
