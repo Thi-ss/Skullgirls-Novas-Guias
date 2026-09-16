@@ -17,9 +17,7 @@ header {
 
 #header-section {
     display: flex;
-    justify-content: space-between;
     padding: 20px;
-    align-items: center;
 }
 
 header p {
@@ -39,8 +37,9 @@ p {
 
 nav {
     display: flex;
-    gap: 20px;
+    justify-content: center;
     align-items: center;
+    margin-left: 28%;
 }
 
 #intro {
@@ -70,18 +69,16 @@ footer {
     padding: 20px;
     text-align: start;
     display: flex;
-    gap: 10%;
-    justify-content: space-between;
-
 }
 
 footer p {
     color: #f5f5f5;
 }
 
-#site-oficial {
+.botões {
     background-color: #7efff6;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
+    margin: 0px 15px 0px 0px;
 }
