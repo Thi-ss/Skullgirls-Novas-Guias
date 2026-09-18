@@ -42,6 +42,10 @@ nav {
     margin-left: 28%;
 }
 
+div {
+    display: flex;
+}
+
 #intro {
     margin-top: 20px;
     font-size: large;
@@ -55,9 +59,33 @@ nav {
     margin: 50px 30px;
 }
 
+#intro-article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 #capa-jogo {
-    width: 60%;
+    border-radius: 20px;
+    width: 90%;
     height: auto;
+    
+}
+
+#article-capa {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#article-capa p {
+    margin-top: 10px;
+    width: 90%;
+    height: auto;
+    background-color: #13071d;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
 }
 
 h2 {
