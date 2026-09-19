@@ -18,6 +18,7 @@ header {
 #header-section {
     display: flex;
     padding: 20px;
+
 }
 
 header p {
@@ -35,13 +36,6 @@ p {
     text-transform: uppercase;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 28%;
-}
-
 div {
     display: flex;
 }
@@ -53,13 +47,14 @@ div {
 
 #intro-section {
     background-color: rgb(154, 240, 255);
-    padding: 70px 30px;
+    padding: 30px 70px;
     display: flex;
-    gap: 200px;
-    margin: 50px 30px;
+    gap: 20px;
+
 }
 
 #intro-article {
+    padding: 50px 0px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -67,23 +62,23 @@ div {
 
 #capa-jogo {
     border-radius: 20px;
-    width: 90%;
+    width: 100%;
     height: auto;
-    
+
 }
 
 #article-capa {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
 }
 
 #article-capa p {
     margin-top: 10px;
-    width: 90%;
+    width: 100%;
     height: auto;
     background-color: #13071d;
-    color:#ffffff;
+    color: #ffffff;
     display: flex;
     justify-content: center;
 }
@@ -93,18 +88,136 @@ h2 {
     color: #23514f;
 }
 
-footer {
-    padding: 20px;
-    text-align: start;
+span {
+    color: #13071d;
+}
+
+
+
+#skullheart {
+    background-color: #ffffff;
+    padding: 70px;
+}
+
+#skullheart h2 {
+    font-size: xx-large;
+}
+
+#galeria {
+    width: 100%;
+    gap: 20px;
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.cards {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #a6f8f1c9;
+    padding: 20px;
+    width: 29.5%;
+    height: auto;
+}
+
+.simbolos {
+    font-size: x-large;
+}
+
+#pronto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    background-color: #6ac1d6;
+}
+
+#pronto p {
+    display: flex;
+    justify-content: center;
+    color: #13071d;
+}
+
+#pronto h2 {
+    font-size: xx-large;
+    color: #ffffff
+}
+
+#botão-pronto {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #13071d;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+#footer-creditos {
+    padding: 30px 60px;
+    gap: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 footer p {
     color: #f5f5f5;
 }
 
+#div-header {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content:center;
+}
+
+#nav-3-botões {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#destaque-botão {
+    right:20px;
+    position:absolute;
+    margin-right: 60px;
+}
+
 .botões {
     background-color: #7efff6;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#botão-início {
+    color: #ffffff;
+    background-color: #13071d;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#destaque-botão {
+    background-color: #7efff6;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.botão-footer {
+    color: #ffffff;
+    background-color: #13071d;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;

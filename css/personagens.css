@@ -31,6 +31,16 @@ nav {
     gap: 20px;
 }
 
+#botão-personagem {
+    color: #ffffff;
+    background-color: #13071d;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0px 15px 0px 0px;
+}
+
+
 h2 {
     font-size: 80px;
     color: #23514f;
@@ -39,12 +49,12 @@ h2 {
 #section-lutadores {
     background-color: #6a4480b0;
     padding: 4% 7%;
-    
+
 }
 
 #p-section-lutadores {
-    color:#ffffff;
-    font-size:larger;
+    color: #ffffff;
+    font-size: larger;
     padding-top: 1%;
 }
 
@@ -57,7 +67,7 @@ h2 {
 }
 
 #abaixo-section-lutadores h3 {
-    color:#ffffff;
+    color: #ffffff;
 }
 
 span {
@@ -82,7 +92,7 @@ span {
 .card-imagens {
     padding: 10px;
     width: 29.5%;
-    height: 580px;
+    height: 600px;
     background-color: #c6fdff;
     overflow: hidden;
     display: flex;
@@ -103,7 +113,7 @@ span {
 
 .paragrafo-vermelho {
     color: #7efff6;
-    font-size:x-large;
+    font-size: x-large;
 }
 
 p {
@@ -118,24 +128,36 @@ h4 {
 }
 
 footer {
+    background-color: #240834;
     padding: 20px;
     text-align: start;
     display: flex;
+}
+
+#footer-creditos {
+    padding: 20px 60px;
+    gap: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 footer p {
     color: #f5f5f5;
 }
 
-#nav-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 28%;
-}
-
 .botões {
     background-color: #7efff6;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0px 15px 0px 0px;
+}
+
+.botão-footer {
+    color: #ffffff;
+    background-color: #13071d;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
