@@ -20,7 +20,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-
 }
 
 header p {
@@ -48,11 +47,10 @@ div {
 }
 
 #intro-section {
-    background-color: rgb(154, 240, 255);
+    background-color: #affffa;
     padding: 30px 70px;
     display: flex;
     gap: 20px;
-
 }
 
 #intro-article {
@@ -66,7 +64,6 @@ div {
     border-radius: 20px;
     width: 100%;
     height: auto;
-
 }
 
 #article-capa {
@@ -94,8 +91,6 @@ span {
     color: #13071d;
 }
 
-
-
 #skullheart {
     background-color: #ffffff;
     padding: 70px;
@@ -112,7 +107,6 @@ span {
     flex-direction: row-reverse;
     justify-content: center;
     padding: 20px;
-
 }
 
 .cards {
@@ -136,18 +130,18 @@ span {
     flex-direction: column;
     align-items: center;
     padding: 70px;
-    background-color: #6ac1d6;
+    background-color: #38284f;
 }
 
 #pronto p {
     display: flex;
     justify-content: center;
-    color: #13071d;
+    color: #261038;
 }
 
 #pronto h2 {
     font-size: xx-large;
-    color: #ffffff
+    color: #ffffff;
 }
 
 #botão-pronto {
@@ -160,7 +154,6 @@ span {
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
-
 }
 
 #footer-creditos {
@@ -169,7 +162,6 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 footer p {
@@ -187,6 +179,11 @@ footer p {
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
+}
+
+#botão-conjunto {
+    gap: 10px;
+    margin-top: 10px;
 }
 
 #botão-início {
