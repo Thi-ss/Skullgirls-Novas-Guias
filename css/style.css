@@ -17,6 +17,8 @@ header {
 
 #header-section {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
 
 }
@@ -175,22 +177,9 @@ footer p {
 }
 
 #div-header {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content:center;
-}
-
-#nav-3-botões {
     display: flex;
     justify-content: center;
     gap: 20px;
-}
-
-#destaque-botão {
-    right:20px;
-    position:absolute;
-    margin-right: 60px;
 }
 
 .botões {
@@ -203,13 +192,6 @@ footer p {
 #botão-início {
     color: #ffffff;
     background-color: #13071d;
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-#destaque-botão {
-    background-color: #7efff6;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
