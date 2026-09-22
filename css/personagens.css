@@ -136,11 +136,10 @@ footer {
 
 #footer-creditos {
     padding: 20px 60px;
-    gap: 20%;
+    gap: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 footer p {
